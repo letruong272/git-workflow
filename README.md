@@ -129,9 +129,9 @@ git checkout develop
 git pull
 ```
 
-3. Checkout to release branch example release/1.0.0
+3. Checkout to release branch example release-v1.0.0
 ```bash
-git checkout -b release/1.0.0 develop
+git checkout -b release-v1.0.0 develop
 ```
 
 4. Create tag for the release example v1.0.0
@@ -156,7 +156,7 @@ git push
 ## Project manager creating a release
 1. Go to the repository
 2. Click on the "Compare & pull request" button
-3. Select the base branch(release/1.0.0) and compare branch(main)
+3. Select the base branch(release-v1.0.0) and compare branch(main)
 4. Add release title and description
 5. Click on the "Create pull request" button
 6. Review the changes and click on the "Merge pull request" button
@@ -195,7 +195,7 @@ git branch
 
 2. Delete the feature branch
 ```bash
-git branch -d release/1.0.0
+git branch -d release-v1.0.0
 ```
 
 ## Developer clear the remote branches
@@ -206,7 +206,7 @@ git branch -r
 
 2. Delete the remote feature branch
 ```bash
-git push origin -d release/1.0.0
+git push origin -d release-v1.0.0
 ```
 
 > *Delete the local and remote branches after merging the changes to the main branch*
@@ -277,9 +277,9 @@ git merge hotfix/2-fix-login-page
 git push
 ```
 
-4. Create release branch example release/1.0.1
+4. Create release branch example release-v1.0.1
 ```bash
-git checkout -b release/1.0.1 develop
+git checkout -b release-v1.0.1 develop
 ```
 
 5. Create tag for the release example v1.0.1
@@ -304,7 +304,7 @@ git push
 ## Project manager creating a release
 1. Go to the repository
 2. Click on the "Compare & pull request" button
-3. Select the base branch(release/1.0.1) and compare branch(main)
+3. Select the base branch(release-v1.0.1) and compare branch(main)
 4. Add release title and description
 5. Click on the "Create pull request" button
 6. Review the changes and click on the "Merge pull request" button
