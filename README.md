@@ -44,16 +44,6 @@ git push -u origin main
 git branch develop
 ```
 
-### Switch to the develop branch
-```bash
-git checkout develop
-```
-
-### Checkout to the main branch
-```bash
-git checkout main
-```
-
 ### Push the develop branch to the remote repository
 ```bash
 git push -u origin develop
